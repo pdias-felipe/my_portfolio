@@ -35,6 +35,12 @@ nav{
     font-size: 20px;
 }
 
+#personal-menu a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+}
+
 #social-links{
     display: flex;
     list-style: none;
@@ -46,6 +52,12 @@ nav{
     padding: 10px;
     color: #fff; 
     font-size: 25px;
+}
+
+#social-links a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
 }
 
 /*  HOME   */
