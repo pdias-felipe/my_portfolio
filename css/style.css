@@ -127,8 +127,9 @@ img{
     margin-top: 12%;
 }
 
-#about .col-a{
+.container-about{
     width: 50%;
+    text-align: center;
 }
 
 #about .col-b{
@@ -139,14 +140,13 @@ img{
 
 #about img{
     width: 60%;
-    height: 60%;
-    margin: 20% 20% 10% 20%;      
+    height: 60%;    
+    margin: 10% 10% 10% 10%; 
 }
 
 #about h2{
     color: #fff;
-    margin-left: 10%;  
-    margin-top: 10%;  
+    margin: 5% 5% 5% 5%;  
     font-size: 2.5rem;
 }
 
@@ -154,7 +154,7 @@ img{
     color: #fff;
     font-size: 1rem;
     text-align: justify;
-    margin: 5% 10% 10% 10%;
+    margin: 5% 10% 10% 5%;
 }
 
 
