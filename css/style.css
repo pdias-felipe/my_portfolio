@@ -100,9 +100,15 @@ p{
     text-decoration: none;
     background: none;
     border: 1px solid white;
-    border-radius: .5rem;
+    border-radius: 1rem;
     padding: 1.2rem 2.5rem;
     font-size: 1.5rem;
+}
+
+.presentation a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 1rem;
 }
 
 #home .col-b{
