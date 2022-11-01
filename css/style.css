@@ -17,6 +17,12 @@ header{
     color: #fff; 
     text-decoration: none;
 }
+
+.logo:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
 nav{
     display: flex;
     justify-content: space-around;   
@@ -38,7 +44,7 @@ nav{
 #personal-menu a:hover{
     background-color: #fff;
     color: #000;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 #social-links{
@@ -57,7 +63,7 @@ nav{
 #social-links a:hover{
     background-color: #fff;
     color: #000;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 /*  HOME   */
