@@ -14,43 +14,61 @@
 
 </head>
 <body>
-    <header>
-        <nav id="navbar-top">            
-                <a class="logo" href="#home">
-                    [ Felipe <br>
-                     Dias ]
-                </a>
-               <button id="btn-mobile">
-                <span id="hamburguer"></span>
-               </button>
-                <ul id="personal-menu">
-                  <li>
-                    <a id="aboutNav" class="close" href="#about">Sobre mim</a>
-                  </li>
-                  <li>
-                    <a id="projectsNav" class="close" href="#projects">Projetos</a>
-                  </li>
-                  <li>
-                    <a id="knowledgeNav" class="close" href="#knowledge">Conhecimentos</a>
-                  </li>
-                  <li>
-                    <a id="contactNav" class="close" href="#contact">Fale comigo</a>
-                  </li>
-                </ul>
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+            <a class="logo" href="#home">
+                [ Felipe <br>
+                 Dias ]
+            </a>
+        </div>
 
-                <ul id="social-links">
-                  <li>
+        <div class="personal-nav-list">
+            <ul>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#knowledges" class="nav-link">Conhecimentos</a></li>
+            </ul>
+        </div>
+
+        <div class="social-nav-list">
+            <ul>
+                  <li class="nav-item"> 
                     <a target="_blank" href="https://github.com/pdias-felipe"><i class="fa-brands fa-github"></i></a>
                   </li>
-                  <li>
+                  <li class="nav-item">
                     <a target="_blank" href="https://www.linkedin.com/in/felipe-depaula-dias/"><i class="fa-brands fa-linkedin"></i></a>
                   </li>
-                  <li>
+                  <li class="nav-item">
                     <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
                   </li>
-                </ul>            
-        </nav>
-    </header>
+            </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="./imgs/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#about" class="nav-link">Sobre mim</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
+            <li class="nav-item"><a href="#knowledges" class="nav-link">Conhecimentos</a></li>
+        </ul>
+        <ul>
+            <li class="nav-item"> 
+              <a target="_blank" href="https://github.com/pdias-felipe"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a target="_blank" href="https://www.linkedin.com/in/felipe-depaula-dias/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+              <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+      </ul>
+    </div>
+</header>
 
     <main>
       <section id="home">
