@@ -229,19 +229,36 @@ img{
         cursor: pointer;
     }
 
-    .mobile-menu ul{
+    .mobile-menu-personal{
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
 
+    .mobile-menu-personal a{
+        font-size: 1.5rem;
+    }
+
     .mobile-menu .nav-item{
         display: block;
         padding-top: 1.2rem;
+        color: #fff;
     }
 
+    .mobile-menu .nav-item a{
+        color: #fff;
+    }
+
+    .mobile-menu-social{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 3rem;
+        color: #fff;
+    }
     .open{
         display: block;
     }    
+    
 }
