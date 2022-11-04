@@ -102,7 +102,8 @@ header{
 }
 
 #home .col-a{    
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 50%;
 }
 
@@ -327,17 +328,21 @@ p{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 100%;
         margin-left: 0;
     }
 
-
-    
+    .presentation a{        
+    width: 40%;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    } 
 
     #home img{
         width: 100%;
         height: 95%;
         margin-top: 20px;
     }
-
 }
