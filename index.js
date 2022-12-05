@@ -1,3 +1,4 @@
+/*Menu*/
 function menuShow(){
     let menuMobile = document.querySelector('.mobile-menu');
     if(menuMobile.classList.contains('open')){
@@ -7,4 +8,28 @@ function menuShow(){
         menuMobile.classList.add('open');
         document.querySelector('.icon').src = './imgs/close_white_36dp.svg'
     }
+}
+
+/*toggle dark-light mode*/
+const inputEl = document.querySelector('.input')
+const bodyEl = document.querySelector('body')
+
+inputEl.checked = JSON.parse(localStorage.getItem('mode'));
+updateBody();
+
+function updateBody(){
+    if(inputEl.checked){
+        bodyEl.style.background = "black"
+    } else {
+        bodyEl.style.background = "white"
+    }
+}
+
+inputEl.addEventListener('input', ()=>{
+    updateBody();
+    updateLocalStorage();
+})
+
+function updateLocalStorage(){
+    localStorage.setItem('mode', JSON.stringify(inputEl.checked))
 }
