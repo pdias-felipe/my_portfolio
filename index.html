@@ -29,8 +29,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div id="navbar-links" class="collapse navbar-collapse ">
-          <ul class="navbar-nav personal-links">
+        <div id="navbar-links" class="collapse navbar-collapse">
+          <ul class="navbar-nav personal-links text-end">
             <li class="nav-item">
               <a class="nav-link text-white" href="#about">Sobre Mim</a>
             </li>
@@ -44,8 +44,8 @@
               <a class="nav-link text-white" href="#contact">Contato</a>
             </li>
           </ul>
-
-          <ul class="navbar-nav social-links">
+        
+          <ul class="navbar-nav social-links text-end">
             <li class="nav-item">
               <a class="nav-item text-white" target="_blank" href="https://github.com/pdias-felipe"><i
                   class="fa-brands fa-github"></i></a>
@@ -81,40 +81,43 @@
     </section><!--fim da section #HOME-->
 
     <section id="about"> <!--inicio section #ABOUT-->
-      <div class="container">
-        <div class="row">
-          <div id="carousel-about" class="carousel slide carousel-fade col-6" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active text-center" data-interval="1000">
-                <img src="./imgs/lampada_acesa.jpg" class="d-block w-50 rounded-circle" alt="self-img">
-              </div>
-              <div class="carousel-item text-center" data-interval="1000">
-                <img src="./imgs/self_eu.jpg" class="d-block w-50 rounded-circle" alt="self-img">
-              </div>
-              <div class="carousel-item text-center" data-interval="1000">
-                <img src="./imgs/self_eu2.jpg" class="d-block w-50 rounded-circle" alt="self-img">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-about" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-about" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <h2>Sebre Mim</h2>
+      <div class="container">        
+        <div id="carousel-about" class="carousel slide w-50" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-about" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-about" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-about" data-bs-slide-to="2"></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imgs/self_eu.jpg" class="d-block w-50 rounded-circle">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgs/lampada_acesa.jpg" class="d-block w-50 rounded-circle">
+            </div>
+            <div class="carousel-item">
+              <img src="./imgs/self_eu.jpg" class="d-block w-50 rounded-circle">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-about" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-about" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
           <div class="card col-6" style="width: 20rem;">
             <div class="card-body">
               <h1 class="card-title">Card title</h1>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>              
             </div>
-
           </div>
-        </div>
+        
       </div>
 
 
