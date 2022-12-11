@@ -9,12 +9,10 @@ body{
     min-width: 372px;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.2rem;
+header{
+    border: 2px solid red;       
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -30,16 +28,23 @@ body{
     border-radius: 10px;
 }
 
+.navbar{
+    border: 2px solid green;   
+}
+
+.menu-principal{
+    display: block;
+}
+
 
 #navbar-links{
-    margin-left: 20%;
-    
+    border: 2px solid green;
+    margin-left: 25%;   
 }
 
 #navbar-links .personal-links{
     font-size: 1rem;
 }
-
 
 #navbar-links .personal-links a:hover{
     background-color: #fff;
@@ -68,6 +73,10 @@ body{
 
 /*  HOME   */
 
+#home{
+    border: 2px solid green;
+    margin: 5% 5% 5% 5%;
+}
 h5{
     margin-top: 3%;
     font-size: 1.2rem;    
@@ -86,12 +95,7 @@ p{
 
 #about{
     border: 2px solid red;
-    margin: 10% 10% 10% 10%;
-}
-
-.container-about{
-    width: 50%;
-    text-align: center;
+    margin: 5% 5% 5% 5%;
 }
 
 .carousel-item img{
@@ -101,7 +105,7 @@ p{
 #about h2{
     color: #fff;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom:10%;
     font-size: 2.5rem;
 }
@@ -112,6 +116,7 @@ p{
 
 #projects{
     border: 2px solid green;
+    margin: 5% 5% 5% 5%;
 }
 
 #projects h2{
