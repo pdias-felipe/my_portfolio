@@ -44,9 +44,9 @@
               <a class="nav-link text-white" href="#contact">Contato</a>
             </li>
           </ul>
-        
+
           <ul class="navbar-nav social-links">
-            
+
 
             <li class="nav-item">
               <a class="nav-item text-white" target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -84,15 +84,14 @@
 
     <section id="about"> <!--inicio section #ABOUT-->
       <h2>Sobre Mim</h2>
-      <div class="container">     
-        <div class="row">
-          <div id="carousel-about" class="carousel slide w-50" data-bs-ride="true">
+      <div id="container-about" class="container">        
+          <div id="carousel-about" class="carousel slide w-100" data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carousel-about" data-bs-slide-to="0" class="active"></button>
               <button type="button" data-bs-target="#carousel-about" data-bs-slide-to="1"></button>
               <button type="button" data-bs-target="#carousel-about" data-bs-slide-to="2"></button>
             </div>
-            <div class="carousel-inner" g-col-6 g-col-md-4"">
+            <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./imgs/self_eu.jpg" class="d-block w-50 rounded-circle">
               </div>
@@ -112,50 +111,136 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-  
-            <div class="card" style="width: 20rem;">
-              <div class="card-body">
-                <h1 class="card-title">Card title</h1>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>              
-              </div>
-            </div>
-        </div>   
-        
-        
-      </div>
+          <p>
+            Um constante aprendiz apaixonado pelo conhecimento, passando por uma transição de carreira, da Filosofia para a área de Tecnologia, para ser mais específico, Desenvolvimento Web.
+            Durante 7 anos na área da Educação como professor, tive a oportunidade de desenvolver diversas habilidades e competências que agora, quero trazer para essa nova área de atuação. Por exemplo, trabalhar em equipe (tendo em vista que o trabalho pedagógico só é bem-sucedido se feito em conjunto), gestão do tempo (uma aula tem tempo pré-determinado e esse deve ser aproveitado da melhor maneira possível), cumprimento de prazos (relatórios, planilhas, resultados são sempre exigidos nessa profissão), raciocínio lógico (afinal, lecionei por anos Filosofia e Sociologia, competência básica para tal exercício). 
+            Sem contar a enorme vontade de sempre aprender coisas novas. O universo da tecnologia é incrível e tenho me aprofundado bastante em aprender novas linguagens, frameworks e tudo mais que vier por aí.
+          </p>
 
-
-
-      
-
-
-
-
-
-
+          
 
     </section><!--fim section #ABOUT-->
-    
+
 
     <section id="projects"><!--inicio section #PROJECTS-->
       <h2>Projetos</h2>
       <div class="container">
-        <div class="row">
-          <div class="card text-center" style="width: 18rem;">
-            <img src="./imgs/self_eu.jpg" class="card-img-top" alt="imagem">
-            <div class="card-body">
-              <h5 class="card-title">Blog Din-Din</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-              <div class="d-flex">
-                <a href="#" class="btn btn-primary"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="btn btn-primary"><i class="fa-brands fa-github"></i></a>
+        <div class="row g-3">
+
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <!--div responsavel pela responsividade dos cards-->
+            <div class="card text-center bg-light"> <!--montagem dos cards-->
+              <a href="#" class="position-absolute right-0 p-2 text-danger">
+                <svg class="bi" width="24" height="24" fill="currentColor">
+                  <use xlink:href="/bi.svg#suit-heart" />
+                </svg>
+              </a>
+
+              <a href="/produto.html">
+                <img src="./imgs/html.png" class="card-img-top" alt="">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title">Banana Prata</h5>
+                <p class="card-text truncate-3l">
+                  Banana prata da melhor qualidade. Direto do campo para a sua mesa.
+                </p>
+              </div>
+              <div class="card-footer">
+                <form class="d-flex">
+                  <button class="btn btn-danger"><i class="fa-brands fa-github"></i></button>
+                  <button class="btn btn-danger"><i class="bi bi-eye"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <!--div responsavel pela responsividade dos cards-->
+            <div class="card text-center bg-light"> <!--montagem dos cards-->
+              <a href="#" class="position-absolute right-0 p-2 text-danger">
+                <svg class="bi" width="24" height="24" fill="currentColor">
+                  <use xlink:href="/bi.svg#suit-heart" />
+                </svg>
+              </a>
+
+              <a href="/produto.html">
+                <img src="./imgs/html.png" class="card-img-top" alt="">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title">Banana Prata</h5>
+                <p class="card-text truncate-3l">
+                  Banana prata da melhor qualidade. Direto do campo para a sua mesa.
+                </p>
+              </div>
+              <div class="card-footer">
+                <form class="d-flex">
+                  <button class="btn btn-danger"><i class="fa-brands fa-github"></i></button>
+                  <button class="btn btn-danger"><i class="bi bi-eye"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <!--div responsavel pela responsividade dos cards-->
+            <div class="card text-center bg-light"> <!--montagem dos cards-->
+              <a href="#" class="position-absolute right-0 p-2 text-danger">
+                <svg class="bi" width="24" height="24" fill="currentColor">
+                  <use xlink:href="/bi.svg#suit-heart" />
+                </svg>
+              </a>
+
+              <a href="/produto.html">
+                <img src="./imgs/html.png" class="card-img-top" alt="">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title">Banana Prata</h5>
+                <p class="card-text truncate-3l">
+                  Banana prata da melhor qualidade. Direto do campo para a sua mesa.
+                </p>
+              </div>
+              <div class="card-footer">
+                <form class="d-flex">
+                  <button class="btn btn-danger"><i class="fa-brands fa-github"></i></button>
+                  <button class="btn btn-danger"><i class="bi bi-eye"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <!--div responsavel pela responsividade dos cards-->
+            <div class="card text-center bg-light"> <!--montagem dos cards-->
+              <a href="#" class="position-absolute right-0 p-2 text-danger">
+                <svg class="bi" width="24" height="24" fill="currentColor">
+                  <use xlink:href="/bi.svg#suit-heart" />
+                </svg>
+              </a>
+
+              <a href="/produto.html">
+                <img src="./imgs/html.png" class="card-img-top" alt="">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title">Banana Prata</h5>
+                <p class="card-text truncate-3l">
+                  Banana prata da melhor qualidade. Direto do campo para a sua mesa.
+                </p>
+              </div>
+              <div class="card-footer">
+                <form class="d-flex">
+                  <button class="btn btn-danger"><i class="fa-brands fa-github"></i></button>
+                  <button class="btn btn-danger"><i class="bi bi-eye"></i></button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
+
 
     </section><!--fim da section #PROJECTS-->
 

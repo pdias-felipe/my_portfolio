@@ -84,7 +84,14 @@ p{
     border: 2px solid red;
     margin: 5% 5% 5% 5%;
 }
+#container-about{
+    justify-content: center;
+}
 
+#container-about p{
+    color: #fff;
+    text-align: justify;
+}
 .carousel-item img{
     margin-left: 25%;
 }
