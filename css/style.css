@@ -84,13 +84,11 @@ p{
     border: 2px solid red;
     margin: 5% 5% 5% 5%;
 }
-#container-about{
-    justify-content: center;
-}
 
 #container-about p{
     color: #fff;
     text-align: justify;
+    margin-top: 5%;
 }
 .carousel-item img{
     margin-left: 25%;
@@ -100,7 +98,7 @@ p{
     color: #fff;
     text-align: center;
     margin-top: 5%;
-    margin-bottom:10%;
+    margin-bottom:5%;
     font-size: 2.5rem;
 }
 
