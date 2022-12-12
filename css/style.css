@@ -24,6 +24,8 @@ body{
     border-radius: 10px;
 }
 
+
+
 #navbar-links .personal-links{
     font-size: 1.2rem;
 }
@@ -61,8 +63,7 @@ body{
 }
 
 #home{
-    border: 2px solid green;
-    margin: 5% 5% 5% 5%;
+    margin: 0% 5% 5% 5%;
 }
 h5{
     margin-top: 3%;
@@ -79,9 +80,7 @@ p{
 
 
 /*  ABOUT   */
-
 #about{
-    border: 2px solid red;
     margin: 5% 5% 5% 5%;
 }
 
@@ -90,6 +89,7 @@ p{
     text-align: justify;
     margin-top: 5%;
 }
+
 .carousel-item img{
     margin-left: 25%;
 }
@@ -103,9 +103,7 @@ p{
 }
 
 
-
 /*   PROJECTS         */
-
 #projects{
     border: 2px solid green;
     margin: 5% 5% 5% 5%;
@@ -138,6 +136,41 @@ p{
     color: #fff;
     border-radius: 10px;
 }
+
+/*   KNOWLEDGES         */
+#knowledges{
+    border: 2px solid green;
+    margin: 5% 5% 5% 5%;
+}
+
+#knowledges h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+}
+
+/*   CONTACT         */
+#contact{
+    border: 2px solid green;
+    margin: 5% 5% 5% 5%;
+}
+
+#contact h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
 
     
 @media (max-width: 720px){
