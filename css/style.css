@@ -9,10 +9,6 @@ body{
     min-width: 372px;
 }
 
-header{
-    border: 2px solid red;       
-}
-
 .logo{
     display: flex;
     align-items: center;
@@ -28,34 +24,28 @@ header{
     border-radius: 10px;
 }
 
-.navbar{
-    border: 2px solid green;   
-}
-
-.menu-principal{
-    display: block;
-}
-
-
-#navbar-links{
-    border: 2px solid green;
-    margin-left: 25%;   
-}
-
 #navbar-links .personal-links{
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+#navbar-links .personal-links a{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;        
 }
 
-#navbar-links .personal-links a:hover{
+#navbar-links .personal-links a:hover{    
     background-color: #fff;
     color: #000 !important;
     border-radius: 100px;
+    padding: 10px;    
 }
 
 #navbar-links .social-links{
-    margin-left:25%;
+    display: flex;
+    flex-direction: row-reverse;
     font-size: 1.8rem;
     gap: 20px;
+    margin-top: 10px;
 }
 
 #navbar-links .social-links a:hover{
@@ -65,13 +55,10 @@ header{
     padding: 10px;
 }
 
+/*  HOME   */
 #card-home{
     border: none;
 }
-
-
-
-/*  HOME   */
 
 #home{
     border: 2px solid green;
