@@ -154,8 +154,12 @@ p{
 #knowledges i{
     align-items: center;
     font-size: 300px;
-    color: #fff;
-    margin-bottom: 10%;
+    color: #fff;    
+}
+
+#knowledges .carousel-caption{
+    position: relative;
+    margin-right: 30%;
 }
 
 /*   CONTACT         */
@@ -245,7 +249,8 @@ p{
 
 
 
-    
+ /*   MEDIA QUERRYS       */   
+
 @media (max-width: 720px){
     h5{
         margin-top: 0;
