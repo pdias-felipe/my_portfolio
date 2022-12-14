@@ -24,8 +24,6 @@ body{
     border-radius: 10px;
 }
 
-
-
 #navbar-links .personal-links{
     font-size: 1.2rem;
 }
@@ -174,8 +172,11 @@ p{
     font-size: 2.5rem;
 }
 
-
-
+/*   FOOTER         */
+#direitos{
+    display: flex;
+    justify-content: center;   
+}
 
 
 
