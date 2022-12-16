@@ -176,6 +176,10 @@ p{
     font-size: 2.5rem;
 }
 
+#contact img{
+    width: 100%;
+}
+
 /*   FOOTER         */
 #direitos{
     display: flex;
@@ -185,11 +189,13 @@ p{
 .toggle-and-up{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-bottom: 50px;
+    padding-left: 15px;
 }
 
 .toggle-and-up a{
     font-size: 2.5rem;
+    padding-right: 15px;
 }
 
 
