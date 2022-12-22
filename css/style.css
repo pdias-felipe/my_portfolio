@@ -24,13 +24,15 @@ body{
     border-radius: 10px;
 }
 
-#navbar-links .personal-links{
-    font-size: 1.2rem;
-}
-#navbar-links .personal-links a{
+#navbar-links .personal-links li{
     display: flex;
     justify-content: end;
-    align-items: flex-end;        
+    align-items: flex-end;
+    
+}
+#navbar-links .personal-links a{
+    width: 150px;  
+    font-size: 1.2rem;      
 }
 
 #navbar-links .personal-links a:hover{    
