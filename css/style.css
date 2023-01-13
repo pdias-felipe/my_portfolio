@@ -82,7 +82,7 @@ p{
 
 /*  ABOUT   */
 #about{
-    margin: 5% 5% 5% 5%;
+    margin: 15% 5% 5% 5%;
 }
 
 #container-about p{
@@ -107,7 +107,7 @@ p{
 /*   PROJECTS         */
 #projects{
     border: 2px solid green;
-    margin: 5% 5% 5% 5%;
+    margin: 15% 5% 5% 5%;
 }
 
 #projects h2{
@@ -142,7 +142,7 @@ p{
 
 /*   KNOWLEDGES         */
 #knowledges{
-    margin: 5% 5% 5% 5%;
+    margin: 15% 5% 5% 5%;
 }
 
 #knowledges h2{
@@ -166,7 +166,7 @@ p{
 
 /*   CONTACT         */
 #contact{
-    margin: 5% 5% 5% 5%;
+    margin: 15% 5% 5% 5%;
 }
 
 #contact h2{
@@ -208,9 +208,6 @@ p{
     font-size: 2.5rem;
     padding-right: 15px;
 }
-
-
-
 
  /*   MEDIA QUERRYS       */   
 
